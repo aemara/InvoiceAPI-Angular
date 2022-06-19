@@ -1,0 +1,29 @@
+<a [routerLink]="['/invoice', invoiceSummary.id]">
+  <div class="card mb-3">
+    <div class="card-body">
+        <div class="row">
+            <div class="col">
+              <div class="invoice-id mb-3 h3">
+                  #{{invoiceSummary.id}}
+              </div>
+              <div class="date-fees-container">
+                  <div class="invoice-date">
+                    <p class="fw-bold">{{invoiceSummary.invoiceDueDate}}</p>
+                  </div>
+                  <div class="total-fees">
+                    <p><span class="fw-bold">Total Fees: </span> ${{invoiceSummary.totalFees}}</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="client-name">
+                  <p><span class="fw-bold">Client Name: </span>{{invoiceSummary.clientName}}</p>
+              </div>
+              <div class="status">
+                  <p><span class="fw-bold">Status: </span>{{invoiceSummary.status}}</p>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+</a>

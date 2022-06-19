@@ -1,0 +1,7 @@
+<header class="d-flex justify-content-center">
+    <a class="btn btn-primary mb-4 "  [routerLink]="['/addinvoice']" href="#" role="button">Add Invoice</a>
+</header>
+
+
+<app-invoice-summary *ngFor="let invoiceSummary of invoiceSummaries" [invoiceSummary]="invoiceSummary">
+</app-invoice-summary>

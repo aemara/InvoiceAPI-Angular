@@ -1,0 +1,24 @@
+{
+  
+    "invoiceSummaries": [
+      { "id": 1, "ClientName": "Amr Emara", "InvoiceDate": "15-2-2022", "TotalFees": 234, "Status": "paid" },
+      { "id": 4, "ClientName": "Jack Reacher", "InvoiceDate": "3-7-2022", "TotalFees": 100, "Status": "pending" }
+    ],
+
+    "invoiceDetails": [
+      {"id": 1, "Description": "ASP.NET API", "InvoiceDate": "15-2-2022", "InvoiceDueDate": "20-2-2022",
+        "ClientName": "Amr Emara",
+        "ClientEmail": "a.emara47@gmail.com",
+        "ClientAddress": "505 Cummer Avenue",
+        "Items": [
+          {"ItemName": "Web Design",
+            "ItemQuantity": 2,
+            "ItemPrice": 4},
+            {"ItemName": "API Design",
+              "ItemQuantity": 2,
+              "ItemPrice": 200}
+        ]}
+    ]
+    
+
+}
